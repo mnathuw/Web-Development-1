@@ -1,93 +1,103 @@
-.intro,h4
-{
+.intro,
+h4 {
     font-family: 'Thasadith', sans-serif;
     font-family: 'Staatliches', cursive;
-    color:gray;
+    color: gray;
 }
-header
-{
+
+header {
     text-align: center;
     font: bold 50pt courier;
-    color:white;
-    width:70%;
-    padding:10px;
-    border:#551100 dotted 5px;
+    color: white;
+    width: 70%;
+    padding: 10px;
+    border: #551100 dotted 5px;
     margin: 25px 0px;
-    background:#B0C4DE;
-    box-sizing:border-box;
-    -moz-border-radius:15px;
-    -webkit-border-radius:15px;
-    border-radius:15px;
+    background: #B0C4DE;
+    box-sizing: border-box;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
 }
-body,p
-{
-    color:black;
-	background:#DCDCDC;
-	width:800px;
-	font-family: 'Thasadith', sans-serif;
-	padding: 0px 10px 0px 10px;
-	margin: 0px auto;
+
+body,
+p {
+    color: black;
+    background: #DCDCDC;
+    width: 800px;
+    font-family: 'Thasadith', sans-serif;
+    padding: 0px 10px 0px 10px;
+    margin: 0px auto;
 }
-a
-{
-    font:italic bold 12pt Arial;
-    color:blue;
+
+a {
+    font: italic bold 12pt Arial;
+    color: blue;
 }
-a:link
-{
-    color:purple;
-    text-decoration:none;
+
+a:link {
+    color: purple;
+    text-decoration: none;
 }
-a:visted
-{
-	color:blue;
-	text-decoration:none;
+
+a:visted {
+    color: blue;
+    text-decoration: none;
 }
-a:hover
-{
-	color:orange;
-	font-weight:normal;
+
+a:hover {
+    color: orange;
+    font-weight: normal;
 }
-a:active
-{
-	color:green;
-	text-decoration:none;
+
+a:active {
+    color: green;
+    text-decoration: none;
 }
-h1,h2,h3,h5,h6
-{
-    font:12pt Arial;
-    color:indigo;
+
+h1,
+h2,
+h3,
+h5,
+h6 {
+    font: 12pt Arial;
+    color: indigo;
     -moz-text-shadow: 2px 2px 4px #000;
     -webkit-text-shadow: 2px 2px 4px #000;
 }
-mark
-{
-    font:bold 20pt Arial;
-    color:red;
+
+mark {
+    font: bold 20pt Arial;
+    color: red;
 }
-#content{
-    width:800px;
+
+#content {
+    width: 800px;
 }
-#content table{
+
+#content table {
     background-color: #FFF;
     border: 1px solid #5E7410;
     margin: 0px auto;
     text-align: left;
     width: 100%;
 }
-#content table caption{
+
+#content table caption {
     font-size: 24px;
     font-weight: bold;
 }
-#content table thead th{
+
+#content table thead th {
     background-color: #4A235A;
     padding: 9px 10px;
     font-size: 18px;
     text-shadow: 1px 1px 2px #000;
     text-align: center;
-    color:#FFFFFF;
+    color: #FFFFFF;
 }
-#content table tbody th{
+
+#content table tbody th {
     color: #FFF;
     font-weight: bold;
     font-size: 18px;
@@ -96,13 +106,16 @@ mark
     text-align: center;
     text-shadow: 1px 1px 2px #000;
 }
-#content table tbody tr td{
+
+#content table tbody tr td {
     border-top: 1px solid #5E7410;
     padding: 6px 24px;
 }
-#content tbody tr:nth-child(even){
+
+#content tbody tr:nth-child(even) {
     background-color: #BB8FCE;
 }
-#content tbody tr:hover{
+
+#content tbody tr:hover {
     background-color: #FCF3CF;
 }

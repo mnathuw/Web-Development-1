@@ -1,12 +1,22 @@
-html,body,section, p, h3, header,footer,div,article,aside, li{
+html,
+body,
+section,
+p,
+h3,
+header,
+footer,
+div,
+article,
+aside,
+li {
 	padding: 0px;
 	font-family: Verdana;
 }
 
-#container{
+#container {
 	background-color: #FFF;
-	display:block;
-	border:1px solid gray;
+	display: block;
+	border: 1px solid gray;
 	box-shadow: 1px 1px gray;
 	margin: 10px auto;
 	border-radius: 10px;
@@ -15,11 +25,11 @@ html,body,section, p, h3, header,footer,div,article,aside, li{
 	height: 1000px;
 }
 
-#header{
+#header {
 	margin: -30px 0px 0px 0px;
 }
 
-header{
+header {
 	width: 100%;
 	height: 195px;
 	background-image: url("headerBackground.jpg");
@@ -29,48 +39,49 @@ header{
 	top: 39px;
 }
 
-body{
+body {
 	background-color: #E6E6E6;
 	min-height: 100%;
 }
 
-#above img{
+#above img {
 	float: left;
 	padding-top: 45px;
 	padding-left: 9px;
 }
 
-#above ul li{
+#above ul li {
 	font-size: 12px;
 	position: relative;
 	top: 68px;
 	text-decoration: none;
 }
 
-#above li a{
+#above li a {
 	padding-left: 5px;
-    padding-right: 6px;
+	padding-right: 6px;
 	padding: 3px;
 	text-decoration: none;
 }
 
-#above ul a:hover{
+#above ul a:hover {
 	color: red;
 }
 
-#above a:visited{
+#above a:visited {
 	color: #07629F;
 }
 
-#above ul li:after{
+#above ul li:after {
 	color: #006699;
-	content: " |";}
+	content: " |";
+}
 
-#above ul li:last-of-type:after{
+#above ul li:last-of-type:after {
 	content: "";
 }
 
-header h2{
+header h2 {
 	font-weight: normal;
 	font-size: 30px;
 	color: #FFF;
@@ -80,7 +91,7 @@ header h2{
 	letter-spacing: 8px;
 }
 
-h5{
+h5 {
 	color: #FFF;
 	font-style: italic;
 	position: absolute;
@@ -89,18 +100,18 @@ h5{
 	letter-spacing: 1px;
 }
 
-#hor{
+#hor {
 	width: 790px;
 	background-color: #0D9AE0;
 	position: relative;
 	left: 10px;
 	top: 39px;
 	right: 10px;
-	background: linear-gradient(to bottom, #99CCFF 0%,#6EB0E2 20%,#086B9E 100%);
+	background: linear-gradient(to bottom, #99CCFF 0%, #6EB0E2 20%, #086B9E 100%);
 	font-size: 13px;
 }
 
-#hor li a{
+#hor li a {
 	position: relative;
 	bottom: 5px;
 	color: #FFF;
@@ -110,47 +121,49 @@ h5{
 	text-decoration: none;
 }
 
-#hor ul a:hover{
+#hor ul a:hover {
 	color: red;
 }
 
-#hor ul li:after{
+#hor ul li:after {
 	content: url("primaryMenuBorder.png");
 	position: relative;
 	top: 3px;
 }
 
-#hor ul li:last-of-type:after{
+#hor ul li:last-of-type:after {
 	content: "";
 }
 
-span{
+span {
 	font-size: .8em;
 	position: relative;
 	right: 9px;
 	top: 60px;
 }
 
-.search{
+.search {
 	float: right;
 }
-input{
+
+input {
 	width: 80px;
 }
 
-nav{
+nav {
 	height: 30px;
 	line-height: 30px;
 	text-align: center;
 }
 
-nav ul, nav ul li{
+nav ul,
+nav ul li {
 	display: inline;
 	margin: 0px auto;
 	padding: 0px;
 }
 
-#ver{
+#ver {
 	position: relative;
 	top: 27px;
 	left: 9px;
@@ -158,11 +171,11 @@ nav ul, nav ul li{
 	font-size: 12px;
 }
 
-#ver ul{
+#ver ul {
 	padding-left: 0px;
 }
 
-#ver ul li{
+#ver ul li {
 	width: 175px;
 	height: 28px;
 	line-height: 30px;
@@ -172,15 +185,15 @@ nav ul, nav ul li{
 	padding-left: 10px;
 }
 
-#ver ul li:first-of-type{
+#ver ul li:first-of-type {
 	list-style-type: none;
 }
 
-#ver a:first-of-type{
+#ver a:first-of-type {
 	position: relative;
 }
 
-#ver li a{
+#ver li a {
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 11px;
@@ -189,15 +202,15 @@ nav ul, nav ul li{
 	color: black;
 }
 
-#ver ul a:hover{
+#ver ul a:hover {
 	color: red;
 }
 
-#ver a:visited{
+#ver a:visited {
 	color: black;
 }
 
-aside{
+aside {
 	position: relative;
 	top: 50px;
 	left: 7px;
@@ -207,32 +220,32 @@ aside{
 	color: gray;
 }
 
-aside img{
+aside img {
 	float: right;
 	display: inline-block;
 	padding: 2px;
 }
 
-#home{
+#home {
 	font-size: 10px;
 	position: absolute;
 	left: 210px;
 	bottom: 685px;
 }
 
-#home a{
+#home a {
 	text-decoration: none;
 }
 
-#home a:visited{
+#home a:visited {
 	color: #07629F;
 }
 
-#home a:hover{
+#home a:hover {
 	color: red;
 }
 
-#content h2{
+#content h2 {
 	font-size: 16px;
 	font-weight: bold;
 	position: relative;
@@ -244,7 +257,7 @@ aside img{
 	padding-bottom: 5px;
 }
 
-h3{
+h3 {
 	font-weight: bold;
 	font-size: 14px;
 	position: relative;
@@ -253,7 +266,7 @@ h3{
 	font-weight: bold;
 }
 
-article{
+article {
 	font-size: 12px;
 	position: relative;
 	left: 218px;
@@ -261,26 +274,26 @@ article{
 	width: 550px;
 }
 
-article p{
+article p {
 	padding-bottom: 10px;
 }
 
-.second{
+.second {
 	width: 310px;
 }
 
-article li{
+article li {
 	list-style-type: none;
 	padding: 10px;
 }
 
-article a{
+article a {
 	font-weight: bold;
 	color: #006699;
 	text-decoration: none;
 }
 
-figure{
+figure {
 	border: 1px solid;
 	border-color: #E4E4E4;
 	width: 260px;
@@ -290,13 +303,13 @@ figure{
 	bottom: 630px;
 }
 
-figure img{
+figure img {
 	position: relative;
 	left: 7px;
-	top:-10px;
+	top: -10px;
 }
 
-figcaption{
+figcaption {
 	margin: 7px 7px 7px 7px;
 	position: relative;
 	bottom: 20px;
@@ -304,73 +317,73 @@ figcaption{
 	text-align: justify;
 }
 
-footer{
+footer {
 	position: relative;
 	line-height: 0.5px;
 	bottom: 510px;
 	font-size: 12px;
 }
 
-footer li a{
+footer li a {
 	padding-left: 5px;
 	padding-right: 6px;
 	text-decoration: none;
 }
 
-footer p{
+footer p {
 	position: relative;
 	left: 250px;
 	bottom: 5px;
 }
 
-footer ul li:after{
+footer ul li:after {
 	color: black;
 }
 
-footer ul a:visited{
+footer ul a:visited {
 	color: #07629F;
 }
 
-#last ul li:after{
+#last ul li:after {
 	color: #006699;
 	content: "|";
 }
 
-#last ul li:last-of-type:after{
+#last ul li:last-of-type:after {
 	content: "";
 }
 
-#copy{
+#copy {
 	position: relative;
 	right: 22px;
 }
 
-#copy a:visited{
+#copy a:visited {
 	color: #07629F;
 }
 
-#address ul li{
+#address ul li {
 	position: relative;
 	bottom: 10px;
 }
 
-#address ul li:after{
+#address ul li:after {
 	color: #006699;
 	content: "|";
 }
 
-#address ul li:last-of-type:after{
+#address ul li:last-of-type:after {
 	content: "";
 }
 
-#address a:visited{
+#address a:visited {
 	color: #07629F;
 }
 
-#a4{
+#a4 {
 	text-decoration: none;
 }
 
-#address a{
+#address a {
 	color: grey;
 }
