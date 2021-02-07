@@ -1,0 +1,154 @@
+#myHeader{
+	display: block;
+	/*width:900px;*/
+	height:450px;
+	padding:10px;
+	margin:5px auto;
+	border-radius:10px;
+	background:white;
+	border:black solid 2px;
+	box-shadow: 5px 10px;
+	border-radius: 6px;
+}
+h1,h2
+{
+	font-family: sans-serif;
+	color: #C71585;
+}
+p
+{
+	font-family: cursive;
+}
+
+nav{
+	width: 100%;
+	background-color: #034f84;
+	border: 2px solid #92a8d1;
+	font-weight: bold;
+	color: #f7786b;
+	margin: 0px auto;
+	border-radius: 6px;
+}
+
+ nav ul{
+	list-style: none;
+	padding: 0px;
+}
+	nav ul li{
+		padding: 10px;
+		border: none;
+	}
+		nav ul li a{
+			color: #FFF;
+			text-decoration: none;
+			font-size: 1.3em;
+		}
+		nav ul li:hover, nav ul li a:focus{
+			background-color: #6D6;
+		}
+@media(min-width: 768px){
+	nav ul{
+		display: flex;
+		flex-wrap: wrap;
+		text-align: center;
+	}
+	nav ul li{
+		border: none;
+		flex: 1;
+	}
+
+	.p-1{
+			column-count: 2;
+			column-gap: 40px;
+			column-rule-style: solid;
+			column-rule-color: lightblue;
+
+	}
+
+	.p-2{
+			column-count: 2;
+			column-gap: 40px;
+			column-rule-style: solid;
+			column-rule-color: lightblue;
+
+	}
+
+	.p-3{
+			column-count: 2;
+			column-gap: 40px;
+			column-rule-style: solid;
+			column-rule-color: lightblue;
+
+	}
+
+	.p-4{
+			column-count: 2;
+			column-gap: 40px;
+			column-rule-style: solid;
+			column-rule-color: lightblue;
+	}
+}
+a
+{
+	font-family: monospace;
+}
+a:link
+{
+    color:#92a8d1;
+    text-decoration:none;
+}
+a:visited
+{
+	color:blue;
+	text-decoration:none;
+}
+a:hover
+{
+	color:orange;
+	font-weight:normal;
+}
+a:active
+{
+	color:green;
+	text-decoration:none;
+}
+/*.column-layout {
+	max-width: 1300px;
+	background-color: #f7cac9;
+	margin: 40px auto 0 auto;
+	line-height: 1.65;
+	padding: 20px 50px;
+	display: flex;
+
+}
+.main-column {
+	flex: 2;
+	order: 2;
+	font-family: 'Major Mono Display', monospace;
+	font-family: 'ZCOOL KuaiLe', cursive;
+	justify-content: space-between;
+	color: #f7786b;
+}
+
+.sidebar-one {
+	flex: 1;
+	order: 1;
+	justify-content: space-between;
+	color: #f7786b;
+}*/
+
+.column-layout {
+	max-width: 1300px;
+	background-color: #f7cac9;
+	margin: 1px auto 0 auto;
+	line-height: 1.65;
+	padding: 20px 50px;
+	border-radius: 6px;
+}
+.main-column {
+	color: #f7786b;
+}
+
+.sidebar-one {
+	color: #f7786b;
+}
